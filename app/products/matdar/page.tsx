@@ -7,8 +7,10 @@ export default function Matdar() {
       <section className="text-center mb-20">
         <h1 className="text-5xl font-bold mb-6">Matdar</h1>
         <p className="text-gray-400 text-lg max-w-3xl mx-auto">
-          Digital Electoral Data & Political Intelligence Platform built for
-          structured campaign management and data-driven electoral strategy.
+          Built for candidates, karyakartas and booth teams who need real-time,
+          accurate voter data.Digital Electoral Data & Political Intelligence
+          Platform built for structured campaign management and data-driven
+          electoral strategy.
         </p>
       </section>
 
@@ -40,12 +42,12 @@ export default function Matdar() {
 
         <div className="grid md:grid-cols-3 gap-8">
           {[
-            "Voter Data Management",
-            "Campaign Tracking Dashboard",
+            "Smart Voter Search",
+            "Filtered Voter Lists & Live Charts",
             "Advanced Analytics & Insights",
-            "Booth-Level Data Structuring",
-            "Volunteer & Team Management",
-            "Secure Role-Based Access Control",
+            "Family Tree & Voter Linkage",
+            "Voter PDF Lists & Custom Voter Cards",
+            "EVM Simulation & Booth-Level Data",
           ].map((feature) => (
             <div
               key={feature}
